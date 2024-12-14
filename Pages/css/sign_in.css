@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../pictures/background.jpg');  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+.signupform{
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    backdrop-filter: blur(.4rem);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
