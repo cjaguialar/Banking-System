@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sign_in.css">
-  
+    <base href="pictures/">
     <title>Banking System</title>
 </head>
 <body>
     <div class="background">
         <div class="signupform">
-            <h1>LOGIN</h1>
-            <form action="process-login.php" method="POST">
+            <h1>SIGN IN FORM</h1>
+            <form action="process-signup.php" method="POST">
                 <div class="form-group">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" required>
@@ -20,10 +20,7 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <button type="submit" class="btn">Log In</button>
-                <br>
-                <br>
-                <p class="or">Dont have an account <a href="../Pages/sign_up.html"><b>Register</b></a></p>
+                <button type="submit" class="btn">Register me</button>
             </form>
         </div>
     </div> 
