@@ -10,18 +10,25 @@
     background-size: cover;
     background-position: center;
     background-image: url('../pictures/background.jpg');  
+    display: flex;
+    align-content: center;
 }
 
 .container{
+    align-self: center;
     margin: 50px auto;
     width: 500px;
     backdrop-filter: blur(.4rem);
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 form{
     margin: 0 2rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .title{
@@ -39,6 +46,7 @@ input{
     padding-left: 1.5rem;
     font-size: 15px;
     outline: none;
+    
     
 }
 
