@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign_in.css">
+  
+    <title>Banking System</title>
+</head>
+<body>
+    <!-- REGISTRATIONM FORM-->
+
+    <div class="background">
+        <div class="container" id="sign_up">
+            <h1 class="title">SIGN UP</h1>
+            <form action="sign_up.php" method="POST">
+                <div class="form-group">
+                    <label for="fname">Firstname</label>
+                    <input type="text" id="fname" name="fname" placeholder="" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="" required>
+                </div>
+                <input type="submit" class="btn" id="sign_up" value="Sign me up">
+            </form>
+            <div class="link">
+                <p class="or">Already have an account? <button id="sign_inbtn">Sign in</button></p>
+            </div>
+        </div>
+    </div>
+    <!--login form-->
+    <div class="background">
+        <div class="container" id="sign_in">
+            <h1 class="title">LOG IN</h1>
+            <form action="sign_up.php" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <input type="submit" class="btn" id="sign_up" value="LOG IN">
+            </form>
+            <div class="link">
+                <p class="or">Don't have an accpunt yet? <button id="sign_upbtn">Sign up</button></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
